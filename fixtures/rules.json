@@ -1,0 +1,16 @@
+{
+  "version": "2026-09-09",
+  "domain": "铁路与口岸多来源旅客事件及座位段对账",
+  "events": [
+    "entered",
+    "rebooked",
+    "exit_confirmed",
+    "passage_denied"
+  ],
+  "roles": [
+    "operator",
+    "border",
+    "auditor"
+  ],
+  "maximum_batch": 100
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "国际列车旅客事件对账请求",
+  "type": "object",
+  "required": [
+    "source_event_id",
+    "source",
+    "source_seq",
+    "traveler_ref",
+    "kind",
+    "occurred_at"
+  ],
+  "properties": {
+    "source_event_id": {},
+    "source": {},
+    "source_seq": {},
+    "traveler_ref": {},
+    "kind": {},
+    "occurred_at": {}
+  },
+  "additionalProperties": false
+}
