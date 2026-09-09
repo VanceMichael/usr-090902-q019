@@ -1,0 +1,7 @@
+services:
+  domain-check:
+    image: node:22-alpine
+    working_dir: /workspace
+    volumes:
+      - .:/workspace:ro
+    command: node /workspace/scaffold/validate.mjs

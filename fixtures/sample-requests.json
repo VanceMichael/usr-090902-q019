@@ -1,0 +1,10 @@
+[
+  {
+    "source_event_id": "rail-71",
+    "source": "border",
+    "source_seq": 18,
+    "traveler_ref": "anon-5",
+    "kind": "exit_confirmed",
+    "occurred_at": "2026-09-09T14:08:00+08:00"
+  }
+]
