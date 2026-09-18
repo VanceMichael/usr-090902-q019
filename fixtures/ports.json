@@ -1,0 +1,17 @@
+{
+  "version": "2026-09-09",
+  "ports": [
+    {
+      "code": "ERL",
+      "name": "二连浩特",
+      "timezone": "Asia/Shanghai",
+      "windows": [{ "open": "06:00", "close": "23:30" }]
+    },
+    {
+      "code": "ZMK",
+      "name": "扎门乌德",
+      "timezone": "Asia/Ulaanbaatar",
+      "windows": [{ "open": "21:30", "close": "02:30" }]
+    }
+  ]
+}

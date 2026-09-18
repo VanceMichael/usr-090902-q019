@@ -1,10 +1,46 @@
 [
   {
-    "source_event_id": "rail-71",
+    "source_event_id": "rail-1001",
+    "source": "rail",
+    "source_seq": 1001,
+    "traveler_ref": "anon-5",
+    "kind": "entered",
+    "occurred_at": "2026-09-09T20:00:00+08:00",
+    "train_no": "K27",
+    "seat": { "car": "05", "no": "12A" },
+    "from_station": "BJS",
+    "to_station": "ERL",
+    "identity": { "name": "An Wei", "document_no": "P1001", "nationality": "CN" }
+  },
+  {
+    "source_event_id": "rail-1002",
+    "source": "rail",
+    "source_seq": 1002,
+    "traveler_ref": "anon-5",
+    "kind": "rebooked",
+    "occurred_at": "2026-09-09T20:40:00+08:00",
+    "train_no": "K27",
+    "seat": { "car": "07", "no": "08B" },
+    "from_station": "BJS",
+    "to_station": "ERL",
+    "replaces_event_id": "rail-1001"
+  },
+  {
+    "source_event_id": "border-71",
     "source": "border",
-    "source_seq": 18,
+    "source_seq": 71,
     "traveler_ref": "anon-5",
     "kind": "exit_confirmed",
-    "occurred_at": "2026-09-09T14:08:00+08:00"
+    "occurred_at": "2026-09-10T01:45:00+08:00",
+    "port": "ZMK"
+  },
+  {
+    "source_event_id": "border-72",
+    "source": "border",
+    "source_seq": 72,
+    "traveler_ref": "anon-9",
+    "kind": "passage_denied",
+    "occurred_at": "2026-09-10T08:00:00+08:00",
+    "port": "ERL"
   }
 ]

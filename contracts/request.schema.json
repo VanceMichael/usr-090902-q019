@@ -11,12 +11,35 @@
     "occurred_at"
   ],
   "properties": {
-    "source_event_id": {},
-    "source": {},
-    "source_seq": {},
-    "traveler_ref": {},
-    "kind": {},
-    "occurred_at": {}
+    "source_event_id": { "type": "string", "minLength": 1 },
+    "source": { "type": "string", "minLength": 1 },
+    "source_seq": { "type": "integer", "minimum": 1 },
+    "traveler_ref": { "type": "string", "minLength": 1 },
+    "kind": { "type": "string", "minLength": 1 },
+    "occurred_at": { "type": "string", "format": "date-time" },
+    "train_no": { "type": "string", "minLength": 1 },
+    "seat": {
+      "type": "object",
+      "required": ["car", "no"],
+      "properties": {
+        "car": { "type": "string", "minLength": 1 },
+        "no": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "from_station": { "type": "string", "minLength": 1 },
+    "to_station": { "type": "string", "minLength": 1 },
+    "port": { "type": "string", "minLength": 1 },
+    "replaces_event_id": { "type": "string", "minLength": 1 },
+    "identity": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "document_no": { "type": "string" },
+        "nationality": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
   },
   "additionalProperties": false
 }

@@ -1,0 +1,12 @@
+{
+  "version": "2026-09-09",
+  "sources": {
+    "rail": { "kinds": ["entered", "rebooked"] },
+    "border": { "kinds": ["exit_confirmed", "passage_denied"] }
+  },
+  "roles": {
+    "operator": { "identity_fields": ["name"] },
+    "border": { "identity_fields": ["name", "document_no", "nationality"] },
+    "auditor": { "identity_fields": [] }
+  }
+}

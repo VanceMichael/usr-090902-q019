@@ -1,0 +1,33 @@
+{
+  "version": "2026-09-09",
+  "trains": [
+    {
+      "train_no": "K27",
+      "route": [
+        { "station": "BJS", "name": "北京" },
+        { "station": "TJP", "name": "天津西" },
+        { "station": "SHE", "name": "沈阳北" },
+        { "station": "HLD", "name": "海拉尔" },
+        { "station": "ERL", "name": "二连浩特" }
+      ],
+      "cars": [
+        { "car": "05", "capacity": 36 },
+        { "car": "06", "capacity": 36 },
+        { "car": "07", "capacity": 36 }
+      ]
+    },
+    {
+      "train_no": "K3",
+      "route": [
+        { "station": "BJS", "name": "北京" },
+        { "station": "ERL", "name": "二连浩特" },
+        { "station": "ZMK", "name": "扎门乌德" },
+        { "station": "UBN", "name": "乌兰巴托" }
+      ],
+      "cars": [
+        { "car": "03", "capacity": 32 },
+        { "car": "04", "capacity": 32 }
+      ]
+    }
+  ]
+}

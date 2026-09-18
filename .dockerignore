@@ -4,3 +4,10 @@
 node_modules
 __pycache__
 data
+dist
+*.pem
+*.key
+credentials.json
+secrets/
+.DS_Store
+coverage/
